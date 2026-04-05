@@ -9,7 +9,7 @@ form.addEventListener("submit", async (e) => {
   formSendResult.textContent = "";
   const drinks = formData.getAll("drinks");
   const submitButton = document.querySelector(".button");
-  const submitButtontext = document.querySelector(".button-text");
+  const submitButtontext = document.querySelector(".button");
   submitButtontext.textContent = "Отправка...";
 
   const drinksString = drinks.join(", ");
@@ -91,3 +91,4 @@ function initScrollAnimation() {
   });
 }
 document.addEventListener("DOMContentLoaded", initScrollAnimation);
+
