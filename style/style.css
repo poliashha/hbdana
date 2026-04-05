@@ -146,11 +146,10 @@ body {
   position: relative;
 }
 
-.bocal::after {
-  content: url(../img/bocal.svg);
+.imgbocal{
   position: absolute;
-  bottom: 30px;
-  left: -5px;
+  top: 10px;
+  left: -1px;
 }
 
 .box-place {
@@ -201,10 +200,9 @@ body {
   position: relative;
 }
 
-.heasrt::after {
-  content: url(../img/hbh.svg);
+.imgheart{
   position: absolute;
-  bottom: -8px;
+  bottom: 2px;
   left: -9px;
 }
 
