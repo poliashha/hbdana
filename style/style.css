@@ -25,8 +25,7 @@ body {
 }
 
 .list {
-  padding-top: 24px;
-  padding-bottom: 12px;
+  padding: 24px 20px 12px;
   z-index: 2;
   position: fixed;
   background-color: var(--background-color);
