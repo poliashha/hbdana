@@ -171,6 +171,7 @@ body {
 
 .palce {
   gap: 15px;
+  margin: -10px;
 }
 
 .place-text {
