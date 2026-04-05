@@ -1,0 +1,405 @@
+body {
+  font-family: var(--main-font), sans-serif;
+  background-color: var(--background-color);
+}
+
+.header {
+  max-width: 412px;
+  padding: 0 20px;
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.main {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 412px;
+  margin: auto;
+}
+
+.list {
+  padding-top: 24px;
+  padding-bottom: 12px;
+  z-index: 2;
+  position: fixed;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 7px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.sheet {
+  border: 1px solid #000;
+  border-radius: 9px;
+  width: 69px;
+  height: 19px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kursiv {
+  font-family: var(--kursiv-text);
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.priglos {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 12px;
+}
+
+.center-text {
+  padding-right: 25px;
+}
+
+.position {
+  position: relative;
+}
+
+.polnoe {
+  position: absolute;
+  top: 254px;
+  left: -3px;
+}
+
+.foto {
+  position: absolute;
+  top: 49px;
+  left: 63px;
+  z-index: -1;
+}
+
+.box-dear {
+  padding-top: 450px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+  gap: 15px;
+}
+
+.position-left {
+  padding-left: 142px;
+  text-align: left;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill {
+  background-color: var(--color-text);
+  color: var(--background-color);
+  font-size: 12px;
+}
+
+.line {
+  display: block;
+  background-color: var(--color-text);
+  width: 40px;
+  height: 1px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.box-time {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.left-text {
+  padding-top: 10px;
+}
+
+.bocal {
+  position: relative;
+}
+
+.bocal::after {
+  content: url(../img/bocal.png);
+  position: absolute;
+  bottom: 30px;
+  left: -5px;
+}
+
+.box-place {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 15px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.fotoplace {
+  padding-top: 10px;
+}
+
+.palce {
+  gap: 15px;
+}
+
+.place-text {
+  position: relative;
+}
+
+.place-text::after {
+  content: url(../img/tort.png);
+  position: absolute;
+  bottom: 19px;
+  left: 120px;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
+.box-wishes {
+  display: flex;
+}
+
+.text-wishes {
+  padding-top: 15px;
+}
+
+.heasrt {
+  position: relative;
+}
+
+.heasrt::after {
+  content: url(../img/wishes.png);
+  position: absolute;
+  bottom: -8px;
+  left: -9px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  height: auto;
+  transition: height 0.3s ease;
+  padding: 0 30px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border: none;
+  padding: 0;
+  gap: 6px;
+}
+
+.custom-radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio-circle {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--color-text);
+  border-radius: 50%;
+  background: transparent;
+  transition: all 0.15s;
+  position: relative;
+}
+
+.input {
+  border: 1px solid #000;
+  border-radius: 16px;
+  max-width: 330px;
+  width: 100%;
+  height: 33px;
+  margin-top: 9px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.custom-radio:hover .radio-circle {
+  border-color: var(--color-text);
+}
+
+.custom-radio input[type="radio"]:checked + .radio-circle {
+  border-color: var(--color-text);
+  background: var(--color-text);
+}
+
+.radio-text {
+  text-align: left;
+  font-size: 18px;
+  font-family: var(--main-font);
+
+  font-weight: 400;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.checkbox__input {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-text);
+  background-color: transparent;
+  width: 14px;
+  height: 14px;
+  outline: none;
+  border-radius: 0;
+}
+
+.checkbox__input:checked::after {
+  content: "✓";
+  font-size: 12px;
+}
+
+.button {
+  max-width: 330px;
+  width: 100%;
+  transition: all 0.3s ease;
+ height: 34px;
+  justify-self: center;
+  align-self: center;
+  border-radius: 16px;
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+.button.touch-pressed {
+  background-color: #665f3f;
+  color: #d8d3be;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--background-color-light);
+    color: var(--hot-pink-color);
+  }
+}
+
+.footer-text {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--hot-pink-color);
+}
+
+.form-send {
+  text-align: center;
+}
+
+.error-text {
+  display: none;
+}
+
+.error-text.show {
+  display: block;
+  animation: show 0.3s ease;
+}
+
+.radio-error {
+  display: none;
+  text-align: left;
+}
+
+.radio-error.show {
+  display: block;
+  animation: show 0.3s ease;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.varints-text {
+  padding-bottom: 5px;
+}
+
+.varints {
+  padding-bottom: 13px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.custom-radio {
+  font-size: 16px;
+  text-align: left;
+}
+
+.checkbox {
+  font-size: 20px;
+}
+
+.error-icon {
+  font-size: 16px;
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input::placeholder {
+  padding-left: 5px;
+}
+
+.text-footer {
+  font-size: 24px;
+}
+
+.footer{
+  background-color: var(--color-text);
+  color: var(--background-color);
+}

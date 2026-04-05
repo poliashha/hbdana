@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Kunstler-Light';
+  src:
+    url("./Kunstler-Light.woff2") format("woff2"),
+    url("./Kunstler-Light.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src:
+    url("./Montserrat-Regular.woff2") format("woff2"),
+    url("./Buongiorno-Rastellino-Cyr-Script.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kunstler Script';
+  src:
+    url("./kunstlerscript.woff2") format("woff2"),
+    url("./kunstlerscript.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+

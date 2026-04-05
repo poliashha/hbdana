@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Свадьба | Яна & Андрей | 15.05.2026" />
+    <meta property="og:description" content="Приглашение на торжество" />
+    <meta property="og:url" content="https://mariadanya-wedding.vercel.app/" />
+    <meta property="og:image" content="./img/preewu.jpg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta name="color-scheme" content="light" />
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/variabels.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="img/icon.svg" sizes="any" />
+    <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="list">
+        <li class="sheet">
+          <a class="link" href="#timing">тайминг</a>
+        </li>
+        <li class="sheet">
+          <a class="link" href="#place">место</a>
+        </li>
+        <li class="sheet">
+          <a class="link" href="#dresscode">дресс-код</a>
+        </li>
+        <li class="sheet">
+          <a class="link small-text" href="#wishes">пожелания</a>
+        </li>
+        <li class="sheet">
+          <a class="link" href="#form">анкета</a>
+        </li>
+      </nav>
+    </header>
+    <main class="main">
+      <article class="card priglos">
+        <h1 class="kursiv">05.05.2026</h1>
+        <p class="title">
+          invitation to Dana’s<br />
+          birthday party
+        </p>
+        <div class="position">
+          <h1 class="kursiv center-text">Time to be beautiful</h1>
+          <object
+            class="foto"
+            type="image/svg+xml"
+            data="./img/firstfoto.jpg"
+            width="230"
+            height="412"
+          ></object>
+          <object
+            class="polnoe"
+            type="image/svg+xml"
+            data="./img/fotopolnoe.png"
+            width="128"
+            height="385"
+          ></object>
+        </div>
+        <div class="box-dear">
+          <h2 class="kursiv">Dear,</h2>
+          <p class="title position-left">
+            приглашаю вас разделить со мной особенный вечер, полный теплоты,
+            красоты и радости. Пусть этот день станет для нас моментом легкости
+            и вдохновения, где каждый найдет частичку счстья.
+          </p>
+        </div>
+      </article>
+      <section id="#timing" class="card">
+        <p class="sheet fill">тайминг</p>
+        <h2 class="kursiv bocal">Timing</h2>
+        <div class="box-time">
+          <h2 class="kursiv">17:00</h2>
+          <span class="line"></span>
+          <p class="title left-text">встреча самых близких гостей</p>
+        </div>
+      </section>
+      <section id="#place" class="card palce">
+        <p class="sheet fill">место</p>
+        <h2 class="kursiv place-text">Place</h2>
+        <div class="box-place">
+          <p class="title align-left">
+            Лофт Август, ул. Казакова, 8, стр. 2, Москва
+          </p>
+          <p class="title align-left">
+            Нас ждёт веселый вечер в компании любимых девочек, хорошая
+            атмосфера, игры, музыка,танцы и угощения.
+          </p>
+        </div>
+         <object
+            class="fotoplace"
+            type="image/svg+xml"
+            data="./img/fotosecond.jpg"
+            width="111"
+            height="160"
+          ></object>
+      </section>
+      <section id="#dresscode" class="card palce">
+        <p class="sheet fill small-text">дресс-код</p>
+        <h2 class="kursiv ">Dress-code</h2>
+        <div class="box-place">
+          <p class="title align-left">
+            Романтичный шик: воздушные ткани, только светлые оттенки: белый, бежевый, изысканные аксессуары.
+          </p>
+        </div>
+      </section>
+      <section id="#wishes" class="card palce">
+        <p class="sheet fill small-text">пожелания</p>
+        <h2 class="kursiv heasrt">Wishes</h2>
+        <div class="box-wishes">
+          <p class="title align-left text-wishes">
+            Ваше присутствие - мой лучший подарок! Если хотите дополнить его, я буду рада чему-то, что сохранит тепло этого вечера.
+          </p>
+          <object
+            class="fotoplace"
+            type="image/svg+xml"
+            data="./img/wishesfoto.png"
+            width="180"
+            height="238"
+          ></object>
+        </div>
+      </section>
+      <section id="#form" class="card palce">
+        <p class="sheet fill ">анкета</p>
+        <h2 class="kursiv">Form</h2>
+        
+        <form  class="form-box" name="submit-to-google-sheet" id="form" action="#">
+          <label class="input_box">Ваши имя и фамилия
+          <input
+            class="input"
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Иван Иванович" required
+          />
+          <span class="error-text" id="error-text">Пожалуйста, заполните поле</span>
+        </label>
+          <fieldset class="radio" >
+            <h2 class="radio-text">
+              Сможете ли вы присутствовать?
+            </h2>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="да" id="presenceYes" required/>
+              <span class="radio-circle"></span>
+              <span>Да</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="нет" id="presenceNo" />
+              <span class="radio-circle"></span>
+              <span>Нет</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="ответит позже" id="presenceDN" />
+              <span class="radio-circle"></span>
+              <span>Отвечу позже</span>
+            </label>
+            <div class="radio-error" id="presenceError">
+          
+          Пожалуйста, выберите, один из вариантов
+        </div>
+      </fieldset>
+          </fieldset>
+          <button class="map-button button" type="submit"><p class="href-button button-text">Подтвердить присутствие</p></button>
+          <div class="form-send"></div>
+        </form>
+      </section>
+      
+    </main>
+    <footer class="footer"><h2 class="kursiv text-footer">With love, Dana!</h2></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
