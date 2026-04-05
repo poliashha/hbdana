@@ -267,9 +267,8 @@ body {
 
 .radio-text {
   text-align: left;
-  font-size: 18px;
+  font-size: 14px;
   font-family: var(--main-font);
-
   font-weight: 400;
 }
 
@@ -400,6 +399,7 @@ body {
 }
 
 .footer{
+  margin-top: 60px;
   background-color: var(--color-text);
   color: var(--background-color);
 }
