@@ -27,7 +27,7 @@ body {
 .list {
   padding: 24px 20px 12px;
   z-index: 2;
-  position: fixed;
+  
   background-color: var(--background-color);
   display: flex;
   align-items: center;
