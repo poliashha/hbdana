@@ -337,6 +337,7 @@ body {
 
 .error-text {
   display: none;
+  font-size: 14px;
 }
 
 .error-text.show {
@@ -347,6 +348,7 @@ body {
 .radio-error {
   display: none;
   text-align: left;
+  font-size: 14px;
 }
 
 .radio-error.show {
