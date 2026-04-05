@@ -202,10 +202,16 @@ body {
 }
 
 .heasrt::after {
-  content: url(../img/hbh.svg);
+  content: "";
   position: absolute;
   bottom: -8px;
   left: -9px;
+  width: 25px;        /* нужный размер */
+  height: 25px;       /* нужный размер */
+  background-image: url(../img/hbh.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .form-box {
