@@ -312,8 +312,8 @@ body {
 }
 
 .button.touch-pressed {
-  background-color: #77756db6;
-  color: #d8d3be;
+  background-color: rgba(182, 182, 182, 0.259);
+  
 }
 
 @media (hover: hover) {
