@@ -178,11 +178,11 @@ body {
   position: relative;
 }
 
-.place-text::after {
-  content: url(../img/tort.svg);
+.place{
   position: absolute;
-  bottom: 19px;
-  left: 120px;
+   top: 17px;
+  right:  -25px;
+ 
 }
 
 .small-text {
@@ -202,16 +202,10 @@ body {
 }
 
 .heasrt::after {
-  content: "";
+  content: url(../img/hbh.svg);
   position: absolute;
   bottom: -8px;
   left: -9px;
-  width: 25px;        /* нужный размер */
-  height: 25px;       /* нужный размер */
-  background-image: url(../img/hbh.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .form-box {
