@@ -147,7 +147,7 @@ body {
 }
 
 .bocal::after {
-  content: url(../img/bocal.png);
+  content: url(../img/bocal.svg);
   position: absolute;
   bottom: 30px;
   left: -5px;
@@ -179,7 +179,7 @@ body {
 }
 
 .place-text::after {
-  content: url(../img/tort.png);
+  content: url(../img/tort.svg);
   position: absolute;
   bottom: 19px;
   left: 120px;
@@ -202,7 +202,7 @@ body {
 }
 
 .heasrt::after {
-  content: url(../img/wishes.png);
+  content: url(../img/hbh.svg);
   position: absolute;
   bottom: -8px;
   left: -9px;
